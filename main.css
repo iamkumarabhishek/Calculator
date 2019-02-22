@@ -1,0 +1,51 @@
+body{
+    min-height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(50, 83, 112);
+    flex : 0 0 80%;
+    min-height: 70vh;
+    background: url('image/img1.jpg')center/cover no-repeat;
+    
+    border-radius: 15px;
+    box-shadow: 5px 7px black;
+}
+
+#titlee{
+    color : white;
+}
+
+button{
+    padding: 0.25rem 0.5rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    margin : 1rem auto;
+    display : block;
+    color : #fefefe;
+    background: rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline : none;
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+
+#prevBtn{
+    float : left;
+}
+
+#nxtBtn{
+    float : right;
+}
+
+button:hover{
+    color : rgb(27, 216, 43);
+    background: rgba(238, 196, 11, 0.6);
+}
